@@ -24,7 +24,8 @@ body {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    padding: 80px 0;
+    padding: 100px 0;
+    gap: 80px;
 }
 .msg {
     color: #F9FAF8;
@@ -36,15 +37,16 @@ body {
     font-size: 18px;
     color: #d6d7da;
     margin: 6px;
-    width: 800px;
+    width: 400px;
 }
 button.first {
     background-color:#3882F6 ;
     color: white;
     font-weight: bold;
     border: 1px solid #3882F6;
+    margin: 8px;
     border-radius: 6px;
-    padding: 4px 16px;
+    padding: 8px 24px;
 }
 .product {
     display: flex;
@@ -54,18 +56,26 @@ button.first {
     color: #1F2937;
     text-align: center;
     padding: 80px;
+ 
 }
 .pictures {
     display: flex;
     flex: auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
+
 }
+.pic img{
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
 .product p {
     font-size: 18px;
     color: #878787;
     font-weight: normal;
+    
 }
 .randinfo {
     margin: 32px 16px;
@@ -74,6 +84,8 @@ button.first {
 .testimonial {
     background-color: #E5E7EB;
     padding: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .review {
@@ -82,7 +94,7 @@ button.first {
     font-style: italic;
     color: #3d526f;
     width: 600px;
-    justify-content: center;
+
 }
 
 .kank {
@@ -91,6 +103,8 @@ button.first {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .signup {
@@ -124,21 +138,21 @@ button.second {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
-    margin: 8px;
+    gap: 24px;
+    margin: 40px;
     padding: 0;
 }
 a {
     text-decoration: none;
-    color: #d6d7da;
+    color: #E5E7EB;
     font-size: 18px;
-
+    
 }
 img.heropic{
-    height: 160px;
+    height: 320px;
     width: auto;
 }
 img {
-    height: auto;
-    width: 120px;
+    height: 140px;
+    width: 140px;
 }
